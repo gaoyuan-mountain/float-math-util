@@ -16,6 +16,7 @@ var FloatUtil = {
       var index = FloatUtil.pointIndexOf(num + '');
       nums.push(index);
     }
+    return nums;
   },
   pointMaxNum: function(args) {
     args = [].concat(args);
