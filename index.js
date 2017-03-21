@@ -57,7 +57,7 @@ var FloatMath = {
 
     var m = FloatUtil.pointMaxNum(FloatUtil.pointNums(args));
     var p = Math.pow(10, m);
-    var total = Number(args[0]) || 0,
+    var total = FloatMath.mul(args[0], p),
       i = 1,
       l = args.length;
     total = Number((total + '').replace('.', ''));

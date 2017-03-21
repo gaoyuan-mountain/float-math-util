@@ -1,7 +1,6 @@
 {
-  "name": "float-math",
+  "name": "float-math-util",
   "version": "0.0.2",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/gaoyuan-mountain/float-math/issues"
   },
-  "homepage": "https://github.com/gaoyuan-mountain/float-math#readme"
+  "homepage": "https://github.com/gaoyuan-mountain/float-math#readme",
+  "description": ""
 }
