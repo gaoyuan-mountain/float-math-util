@@ -1,6 +1,5 @@
 # install
-npm install float-math
-
+npm install float-math-util
 # api
 
 add
