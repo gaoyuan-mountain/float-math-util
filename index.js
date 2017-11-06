@@ -57,14 +57,14 @@ var FloatMath = {
 
     var m = FloatUtil.pointMaxNum(FloatUtil.pointNums(args));
     var p = Math.pow(10, m);
-    var total = FloatMath.mul(args[0], p),
+    var total = Math.round(FloatMath.mul(args[0], p)),
       i = 1,
       l = args.length;
     total = Number((total + '').replace('.', ''));
     while (i < l) {
       var num = args[i++];
       num = num + '';
-      total -= FloatMath.mul(Number(num), p);
+      total -= Math.round(FloatMath.mul(Number(num), p));
     }
 
     return total ? Number(total / p.toFixed(m)) : total;
